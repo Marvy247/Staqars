@@ -10,6 +10,12 @@ This repository currently contains the following dApps:
 *   **[Bounty System](./bounty-system/README.md)**: A system for creating and managing bounties.
 *   **[BTC Bridge Helper](./btc-bridge-helper/README.md)**: A cross-chain messaging and formatting system for Bitcoin-Stacks interoperability.
 *   **[Decentralized Lottery](./decentralized-lottery/README.md)**: A provably fair decentralized lottery.
+*   **[Digital Will](./digital-will/README.md)**: A time-locked inheritance dApp.
+*   **[Donation Platform](./donation-platform/README.md)**: A transparent donation platform with milestones.
+*   **[Flash Loan](./flash-loan/README.md)**: An instant, collateral-free loan protocol.
+*   **[Credential Registry](./credential-registry/README.md)**: A system to issue, verify, and manage digital credentials on-chain.
+*   **[Insurance Pool](./insurance-pool/README.md)**: A decentralized risk pooling and claims management platform.
+*   **[NFT Marketplace](./nft-marketplace/README.md)**: A decentralized NFT marketplace with creator royalties.
 
 Each dApp is located in its own directory and contains its own set of contracts, tests, and deployment configurations. Please refer to the `README.md` file within each dApp's directory for more specific information.
 
