@@ -9,6 +9,7 @@ This repository currently contains the following dApps:
 *   **[Auction House](./auction-house/README.md)**: A decentralized auction house for NFTs.
 *   **[Bounty System](./bounty-system/README.md)**: A system for creating and managing bounties.
 *   **[BTC Bridge Helper](./btc-bridge-helper/README.md)**: A cross-chain messaging and formatting system for Bitcoin-Stacks interoperability.
+*   **[Decentralized Lottery](./decentralized-lottery/README.md)**: A provably fair decentralized lottery.
 *   **[Digital Will](./digital-will/README.md)**: A time-locked inheritance dApp.
 *   **[Donation Platform](./donation-platform/README.md)**: A transparent donation platform with milestones.
 *   **[Flash Loan](./flash-loan/README.md)**: An instant, collateral-free loan protocol.
