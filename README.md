@@ -9,6 +9,7 @@ This repository currently contains the following dApps:
 *   **[Auction House](./auction-house/README.md)**: A decentralized auction house for NFTs.
 *   **[Bounty System](./bounty-system/README.md)**: A system for creating and managing bounties.
 *   **[BTC Bridge Helper](./btc-bridge-helper/README.md)**: A cross-chain messaging and formatting system for Bitcoin-Stacks interoperability.
+*   **[NFT Marketplace](./nft-marketplace/README.md)**: A decentralized NFT marketplace with creator royalties.
 
 Each dApp is located in its own directory and contains its own set of contracts, tests, and deployment configurations. Please refer to the `README.md` file within each dApp's directory for more specific information.
 
