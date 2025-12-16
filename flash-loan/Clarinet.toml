@@ -1,0 +1,11 @@
+[project]
+name = "flash-loan"
+description = "Uncollateralized instant loans"
+authors = []
+telemetry = false
+cache_dir = "./.cache"
+requirements = []
+[contracts.flash-loan]
+path = "contracts/flash-loan.clar"
+clarity_version = 2
+epoch = 2.4
