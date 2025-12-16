@@ -1,0 +1,11 @@
+[project]
+name = "donation-platform"
+description = "Transparent donation tracking and campaigns"
+authors = []
+telemetry = false
+cache_dir = "./.cache"
+requirements = []
+[contracts.donation-platform]
+path = "contracts/donation-platform.clar"
+clarity_version = 2
+epoch = 2.4
