@@ -9,6 +9,7 @@ This repository currently contains the following dApps:
 *   **[Auction House](./auction-house/README.md)**: A decentralized auction house for NFTs.
 *   **[Bounty System](./bounty-system/README.md)**: A system for creating and managing bounties.
 *   **[BTC Bridge Helper](./btc-bridge-helper/README.md)**: A cross-chain messaging and formatting system for Bitcoin-Stacks interoperability.
+*   **[Flash Loan](./flash-loan/README.md)**: An instant, collateral-free loan protocol.
 *   **[Credential Registry](./credential-registry/README.md)**: A system to issue, verify, and manage digital credentials on-chain.
 *   **[Insurance Pool](./insurance-pool/README.md)**: A decentralized risk pooling and claims management platform.
 *   **[NFT Marketplace](./nft-marketplace/README.md)**: A decentralized NFT marketplace with creator royalties.
