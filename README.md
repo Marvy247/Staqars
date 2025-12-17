@@ -21,7 +21,7 @@ Each dApp is located in its own directory and contains its own set of contracts,
 
 ## Getting Started
 
-To get started with any of the dApps in this repository, you will need to have [Clarinet](https://github.com/hirosystems/clarinet) installed. Clarinet is a tool for developing, testing, and deploying Clarity smart contracts.
+To get started with any of the dApps in this repository, you will need to have [Clarinet](https://github.com/hirosystems/clarinet) installed. 
 
 Once you have Clarinet installed, you can navigate to the directory of the dApp you are interested in and use the Clarinet CLI to interact with the contracts.
 
