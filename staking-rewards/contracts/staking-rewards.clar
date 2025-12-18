@@ -38,7 +38,11 @@
   (begin
     (asserts! (>= amount (var-get min-stake-amount)) err-insufficient-balance)
     (asserts! (is-none (map-get? stakes tx-sender)) err-already-staking)
+<<<<<<< Updated upstream
     (try! (stx-transfer? amount tx-sender (as-contract tx-sender)))
+=======
+    (try! (stx-transfer-memo? amount tx-sender (as-contract tx-sender) 0x7374616b696e67206465706f736974))
+>>>>>>> Stashed changes
     (map-set stakes tx-sender {
       amount: amount,
       start-block: stacks-block-height,
@@ -53,8 +57,13 @@
   (match (map-get? stakes tx-sender)
     stake-info
       (let ((rewards (unwrap! (calculate-rewards tx-sender) err-not-found)))
+<<<<<<< Updated upstream
         (try! (as-contract (stx-transfer? (get amount stake-info) tx-sender tx-sender)))
         (try! (as-contract (stx-transfer? rewards tx-sender tx-sender)))
+=======
+        (try! (as-contract (stx-transfer-memo? (get amount stake-info) tx-sender tx-sender 0x756e7374616b65207072696e636970616c)))
+        (try! (as-contract (stx-transfer-memo? rewards tx-sender tx-sender 0x756e7374616b6520726577617264)))
+>>>>>>> Stashed changes
         (map-delete stakes tx-sender)
         (var-set total-staked (- (var-get total-staked) (get amount stake-info)))
         (ok true)
@@ -67,7 +76,11 @@
   (match (map-get? stakes tx-sender)
     stake-info
       (let ((rewards (unwrap! (calculate-rewards tx-sender) err-not-found)))
+<<<<<<< Updated upstream
         (try! (as-contract (stx-transfer? rewards tx-sender tx-sender)))
+=======
+        (try! (as-contract (stx-transfer-memo? rewards tx-sender tx-sender 0x726577617264732063616c696d)))
+>>>>>>> Stashed changes
         (map-set stakes tx-sender (merge stake-info { last-claim-block: stacks-block-height }))
         (ok rewards)
       )
@@ -76,5 +89,9 @@
 )
 
 (define-public (fund-rewards (amount uint))
+<<<<<<< Updated upstream
   (stx-transfer? amount tx-sender (as-contract tx-sender))
+=======
+  (stx-transfer-memo? amount tx-sender (as-contract tx-sender) 0x7265776172642066756e64696e67)
+>>>>>>> Stashed changes
 )
