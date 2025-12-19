@@ -1,0 +1,39 @@
+---
+id: 0
+name: Mainnet deployment
+network: mainnet
+stacks-node: "https://api.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 1
+      transactions:
+        - contract-publish:
+            contract-name: tipping-platform
+            expected-sender: SPGEE2D7NV4RJC1MHK59AN83PEN0CBBEXQSYJQGE
+            cost: 60790
+            path: contracts/tipping-platform.clar
+            anchor-block-only: true
+            clarity-version: 1
+        - contract-publish:
+            contract-name: token-swap
+            expected-sender: SPGEE2D7NV4RJC1MHK59AN83PEN0CBBEXQSYJQGE
+            cost: 64280
+            path: contracts/token-swap.clar
+            anchor-block-only: true
+            clarity-version: 1
+        - contract-publish:
+            contract-name: token-vesting
+            expected-sender: SPGEE2D7NV4RJC1MHK59AN83PEN0CBBEXQSYJQGE
+            cost: 25960
+            path: contracts/token-vesting.clar
+            anchor-block-only: true
+            clarity-version: 1
+        - contract-publish:
+            contract-name: yield-aggregator
+            expected-sender: SPGEE2D7NV4RJC1MHK59AN83PEN0CBBEXQSYJQGE
+            cost: 74400
+            path: contracts/yield-aggregator.clar
+            anchor-block-only: true
+            clarity-version: 1
+      epoch: "2.05"

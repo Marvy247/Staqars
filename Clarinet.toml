@@ -1,0 +1,126 @@
+[project]
+name = "stx-projects"
+description = "A collection of Stacks projects"
+authors = []
+telemetry = true
+boot_contracts = []
+
+[deployments.mainnet]
+plan = "deployments/mainnet-plan-2.yaml"
+
+
+[contracts.bounty-system]
+path = "contracts/bounty-system.clar"
+depends_on = []
+
+[contracts.contract-verifier]
+path = "contracts/contract-verifier.clar"
+depends_on = []
+
+[contracts.crowdfund-platform]
+path = "contracts/crowdfund-platform.clar"
+depends_on = []
+
+[contracts.dao-governance]
+path = "contracts/dao-governance.clar"
+depends_on = []
+
+[contracts.decentralized-lottery]
+path = "contracts/decentralized-lottery.clar"
+depends_on = []
+
+[contracts.digital-will]
+path = "contracts/digital-will.clar"
+depends_on = []
+
+[contracts.donation-platform]
+path = "contracts/donation-platform.clar"
+depends_on = []
+
+[contracts.flash-loan]
+path = "contracts/flash-loan.clar"
+depends_on = []
+
+[contracts.insurance-pool]
+path = "contracts/insurance-pool.clar"
+depends_on = []
+
+[contracts.lending-pool]
+path = "contracts/lending-pool.clar"
+depends_on = []
+
+[contracts.multisig-wallet]
+path = "contracts/multisig-wallet.clar"
+depends_on = []
+
+[contracts.name-registry]
+path = "contracts/name-registry.clar"
+depends_on = []
+
+[contracts.nft-marketplace]
+path = "contracts/nft-marketplace.clar"
+depends_on = []
+
+[contracts.oracle-registry]
+path = "contracts/oracle-registry.clar"
+depends_on = []
+
+[contracts.passkey-auth]
+path = "contracts/passkey-auth.clar"
+depends_on = []
+
+[contracts.btc-bridge-helper]
+path = "contracts/btc-bridge-helper.clar"
+depends_on = []
+
+[contracts.credential-registry]
+path = "contracts/credential-registry.clar"
+depends_on = []
+
+[contracts.prediction-market]
+path = "contracts/prediction-market.clar"
+depends_on = []
+
+[contracts.reputation-system]
+path = "contracts/reputation-system.clar"
+depends_on = []
+
+[contracts.royalty-splitter]
+path = "contracts/royalty-splitter.clar"
+depends_on = []
+
+[contracts.secure-escrow]
+path = "contracts/secure-escrow.clar"
+depends_on = []
+
+[contracts.social-recovery]
+path = "contracts/social-recovery.clar"
+depends_on = []
+
+[contracts.staking-rewards]
+path = "contracts/staking-rewards.clar"
+depends_on = []
+
+[contracts.subscription-service]
+path = "contracts/subscription-service.clar"
+depends_on = []
+
+[contracts.timelock-vault]
+path = "contracts/timelock-vault.clar"
+depends_on = []
+
+[contracts.tipping-platform]
+path = "contracts/tipping-platform.clar"
+depends_on = []
+
+[contracts.token-swap]
+path = "contracts/token-swap.clar"
+depends_on = []
+
+[contracts.token-vesting]
+path = "contracts/token-vesting.clar"
+depends_on = []
+
+[contracts.yield-aggregator]
+path = "contracts/yield-aggregator.clar"
+depends_on = []
